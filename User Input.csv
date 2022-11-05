@@ -1,0 +1,57 @@
+﻿UserID,Variable,Filter,Value,Class
+101,state_name,Equals,,
+101,popularity,Greater Than,5,Required
+101,length,Less Than,1000,Optional
+101,elevation_gain,Less Than,,
+101,difficulty_rating,Less Than,,
+101,route_type,Equals,out and back,Optional
+101,visitor_usage,Greater Than,,
+101,avg_rating,Greater Than,3,Required
+101,num_reviews,Greater Than,50,Optional
+101,TF_dogs-no,Equals,,
+101,TF_forest,Equals,,
+101,TF_historic-site,Equals,1,Optional
+101,TF_kids,Equals,,
+101,TF_dogs-leash,Equals,,
+101,TF_ada,Equals,,
+101,TF_beach,Equals,,
+101,TF_cave,Equals,1,Optional
+101,TF_views,Equals,1,Required
+101,TF_river,Equals,1,Optional
+101,TF_city-walk,Equals,,
+101,TF_lake,Equals,,
+101,TF_rails-trails,Equals,,
+101,TF_partially-paved,Equals,,
+101,TF_dogs,Equals,1,Required
+101,TF_wildlife,Equals,,
+101,TF_paved,Equals,1,Optional
+101,ACT_birding,Equals,,
+101,ACT_hiking,Equals,1,Required
+101,ACT_backpacking,Equals,,
+101,ACT_walking,Equals,,
+101,ACT_camping,Equals,1,Optional
+101,ACT_nature-trips,Equals,,
+101,ACT_off-road-driving,Equals,0,Required
+101,ACT_road-biking,Equals,0,Required
+101,ACT_mountain-biking,Equals,0,Required
+101,ACT_scenic-driving,Equals,1,Optional
+101,ACT_bike-touring,Equals,,
+101,ACT_fishing,Equals,,
+101,ACT_snowshoeing,Equals,,
+101,ACT_paddle-sports,Equals,,
+101,ACT_trail-running,Equals,,
+101,ACT_horseback-riding,Equals,,
+101,ACT_rock-climbing,Equals,,
+101,ACT_cross-country-skiing,Equals,,
+101,ACT_sea-kayaking,Equals,,
+101,ACT_fly-fish,Equals,,
+101,ACT_canoeing,Equals,,
+101,ACT_whitewater-kayaking,Equals,,
+101,ACT_skiing,Equals,,
+101,ACT_surfing,Equals,,
+101,ACT_snowboarding,Equals,,
+101,ACT_ice-climbing,Equals,,
+101,ACT_rails-trails,Equals,,
+101,Grade,Less Than,,
+101,User Latitude,Equals,33.091106,
+101,User Longitude,Equals,-96.82285,
