@@ -1,0 +1,12 @@
+Since the user probably doesn't want 100s of expeditions, they can just specify the number of them and we'll use their X top trails as bases.
+
+Exp_Count: Count of expeditions found
+Max_Count: Maximum count of expeditions (ideally, user input).
+Max_exp_length: If this isn't used, we'll get super long expeditions (Basically, every trail in the base National Park).
+
+User_Max_Distance: Max distance between trails (user input)
+
+
+The weird caveat I was texting about is the filtering out of trails within 2 miles of the most recent trail in the expedition. Basically, if you allow the code to just find the nearest trail, you'll likely get repeating trails (Trail A: poitns B to D, Trail A: points D to E), Trail A: points A to C). Therefore, removing all trails within 2 miles of the current one should reduce this.
+
+Finally, I can't quite decide how to recommend the next trail in the expedition. In most cases, you'll have numerous trails all within the 2-3 mile distance, and basically, I just want to maximize score while minimizing distance. For now, I'm using a new score calculated as [Score] / [Distance to current Trail]
